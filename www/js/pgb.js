@@ -18,3 +18,13 @@ function deviceInfo() {
 
 	document.getElementById("deviceDetails").innerHTML = info;	
 }
+
+fuction interests() {
+	
+	d = 'Lubię grać w Simsy.' + '<br>' +
+		'Lubię spać.' + '<br>' +
+		'Lubię  jeść.' + '<br>';
+	
+	document.getElementById("intere").innerHTML = d;
+	
+}
